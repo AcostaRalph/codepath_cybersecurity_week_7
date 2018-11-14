@@ -11,7 +11,7 @@ Time spent: **6** hours spent in total
     - Vulnerability types: User Enumeration
     - Tested in version: 4.2
     - Fixed in version: N/A
-  - [ ] GIF Walkthrough: <img src="https://github.com/AcostaRalph/codepath_cybersecurity_week_7/blob/master/user_enumeration.gif" width="800">
+  - [x] GIF Walkthrough: <img src="https://github.com/AcostaRalph/codepath_cybersecurity_week_7/blob/master/user_enumeration.gif" width="800">
   - [x] Steps to recreate:
   	- Establish confirmation of connection to application using ```ping <url/ipaddress>```
   	- Run WPScan on application with enumeration option and user enumeration option using ```wpscan --url <url> -e u```
@@ -23,7 +23,7 @@ Time spent: **6** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
-  - [ ] GIF Walkthrough: <img src="https://github.com/AcostaRalph/codepath_cybersecurity_week_7/blob/master/authenticated_stored_xss.gif" width="800">
+  - [x] GIF Walkthrough: <img src="https://github.com/AcostaRalph/codepath_cybersecurity_week_7/blob/master/authenticated_stored_xss.gif" width="800">
   - [x] Steps to recreate: 
   	- As a user with author level access, one must edit/create a new post/page.
   	- Enter this code as an example ```<a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>```
@@ -35,7 +35,7 @@ Time spent: **6** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
-  - [ ] GIF Walkthrough: <img src="https://github.com/AcostaRalph/codepath_cybersecurity_week_7/blob/master/YouTube_embeded.gif" width="800">
+  - [x] GIF Walkthrough: <img src="https://github.com/AcostaRalph/codepath_cybersecurity_week_7/blob/master/YouTube_embeded.gif" width="800">
   - [x] Steps to recreate: 
   	- As a user with author level access, create a new post.
   	- Find a YouTube video to embed and get the embeded source tag from the video.
